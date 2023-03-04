@@ -31,13 +31,12 @@ body{
 }
 .picture{
     width: 150px;
-    clip-path: circle(100%);
     margin: 2rem auto .5rem auto;
-    border: solid 5px #c8f500;
+    border: solid 2px var(--lime);
     border-radius: 50%;
 }
 .bio{
-    width: 80%;
+    width: 75%;
     margin:1.5rem auto;
 }
 .card{
