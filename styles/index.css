@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@400;500;600;700;800&display=swap');
+:root{
+    --night: #141414;
+    --platinum: #E6E6E6;
+    --lime: #c8f500;
+}
+
+*{
+    font-family:'Sora', 'sans-serif';
+    margin: 0;    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body{
+    height: 100%;
+    background: linear-gradient(180deg, rgba(20,20,20,1) 50%, rgba(42,51,0,1) 100%);
+}
+.presentation{
+    color: var(--platinum);
+    width: 80%;
+    text-align: center;
+    margin: 50px auto;
+}
+.jobTitle{
+    font-size: .8rem;
+    font-weight: 400;
+    color: var(--lime);
+}
+.picture{
+    width: 150px;
+    clip-path: circle(100%);
+    margin: 2rem auto .5rem auto;
+    border: solid 5px #c8f500;
+    border-radius: 50%;
+}
+.bio{
+    width: 80%;
+    margin:1.5rem auto;
+}
+.card{
+    height: 500px;
+}
+.button{
+    width: 50%;
+    max-width: 300px;
+    padding: .8rem 1rem;
+    margin: 1.25rem auto;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    color: var(--platinum);
+    background-color: var(--night);
+    transition: 300ms;
+}
+.button:hover{
+    transform: scale(1.1);
+    border: 0.2px solid var(--platinum);
+}
+.button:hover .btnIcon{
+    color: var(--lime);
+}
+.btnIcon{
+    margin: auto 1rem;
+    font-size: 1.5rem;
+}
+
+footer{
+    margin: 50px auto 0 auto;
+    width: 80%;
+    border-top: var(--lime) 1px solid;
+}
+footer p {
+    font-size: .75rem;
+    text-align: center;
+    color: var(--platinum);
+    margin: 1rem auto;
+}
